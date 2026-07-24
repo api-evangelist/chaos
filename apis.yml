@@ -1,8 +1,33 @@
 aid: chaos
 name: Chaos
-description: Chaos is a company surfaced as a portfolio company of 8vc, accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CHAOS Industries is a U.S. defense-technology company founded in 2022 that
+  builds advanced sensing and detection systems for military, border, and
+  critical-infrastructure defense. Its Coherent Distributed Networks (CDN)
+  technology powers a multi-product portfolio - including the Vanquish radar
+  for early warning and tracking of unmanned aerial systems and missile
+  threats, and HYDRA, a software-defined multi-application platform for
+  detection, communications, and electronic effects. CHAOS markets domain
+  dominance through counter-drone (counter-UAS) radar that detects threats up
+  to ten minutes faster and tracks targets to 250 km. The company has raised
+  roughly $1 billion from investors including 8VC, Accel, Valor Equity
+  Partners, and NEA, with offices in Los Angeles, Washington DC, San
+  Francisco, San Diego, London, and Amman. This profile was added to the API
+  Evangelist network as a portfolio-company lead; CHAOS publishes a marketing
+  and newsroom presence but no public developer API, documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/chaos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/668ecfcf2f568cb39c426a88/68b05f5d4809843bd29c88b9_f36a14520040e3563c1ae6dc9c6c6d95_Open%20Graph%20Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +37,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defense Technology
+- Radar
+- Counter-UAS
+- National Security
+- Sensing and Detection
+- Aerospace and Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +54,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://chaosinc.com
+  url: https://www.chaosinc.com
+- type: Blog
+  url: https://www.chaosinc.com/newsroom
+- type: Support
+  url: https://www.chaosinc.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/chaosindustries
+- type: Twitter
+  url: https://twitter.com/ChaosDefense
+- type: DomainSecurity
+  url: security/chaos-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
